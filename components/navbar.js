@@ -8,7 +8,6 @@ const Navbar = () => {
     "Product",
     "Features",
     "Pricing",
-    "Company",
     "Blog",
   ];
 
@@ -24,14 +23,14 @@ const Navbar = () => {
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
                       <Image
-                        src="/img/logo.svg"
+                        src="/img/logo.png"
                         alt="N"
-                        width="32"
-                        height="32"
-                        className="w-8"
+                        width="200"
+                        height="40"
+                        style={{ maxWidth: '100px' }}
                       />
                     </span>
-                    <span>Nextly</span>
+                    {/* <span>Nextly</span> */}
                   </span>
                 </Link>
 
@@ -65,9 +64,9 @@ const Navbar = () => {
                           {item}
                       </Link>
                     ))}
-                    <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
+                    {/* <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
                         Get Started
-                    </Link>
+                    </Link> */}
                   </>
                 </Disclosure.Panel>
               </div>
@@ -88,13 +87,13 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="hidden mr-3 space-x-4 lg:flex nav__item">
+        {/* <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
               Get Started
           </Link>
 
-          <ThemeChanger />
-        </div>
+          
+        </div> */}
       </nav>
     </div>
   );

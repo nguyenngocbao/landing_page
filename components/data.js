@@ -7,8 +7,8 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitOneImg from "../public/img/service.png";
+import benefitTwoImg from "../public/img/service1.png";
 
 const benefitOne = {
   title: "Highlight your benefits",

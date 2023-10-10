@@ -19,7 +19,7 @@ const PopupWidget = () => {
 
   const onSubmit = async (data, e) => {
     console.log(data);
-    await fetch("https://api.web3forms.com/submit", {
+    await fetch("", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -246,7 +246,7 @@ const PopupWidget = () => {
                           )}
                         </button>
                       </div>
-                      <p
+                      {/* <p
                         className="text-xs text-center text-gray-400"
                         id="result">
                         <span>
@@ -259,7 +259,7 @@ const PopupWidget = () => {
                             Web3Forms
                           </a>
                         </span>
-                      </p>
+                      </p> */}
                     </form>
                   )}
 

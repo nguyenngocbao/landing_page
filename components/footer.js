@@ -19,38 +19,22 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div>
               {" "}
-              <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+              <Link href="/" className="flex items-end space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <Image
-                      src="/img/logo.svg"
+                      src="/img/logo1.png"
                       alt="N"
-                      width="32"
-                      height="32"
-                      className="w-8"
+                      width="60"
+                      height="60"
                     />
-                  <span>Nextly</span>
+                  <span className="text-upercase" style={{ color: '#1204c4' }}>TAPLINK</span>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website
-              template for startups and indie projects. Its built with
-              Next.js & TailwindCSS. And its completely open-source.
+            Taplink is a blog that explores the integration of NFC technology and blockchain for real world assets.
+            Discover how this combination can revolutionize various industries.
             </div>
 
-            <div className="mt-5">
-              <a
-                href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
-                target="_blank"
-                rel="noopener"
-                className="relative block w-44">
-                <Image
-                  src="/img/vercel.svg"
-                  alt="Powered by Vercel"
-                  width="212"
-                  height="44"
-                />
-              </a>
-            </div>
           </div>
 
           <div>
@@ -82,14 +66,14 @@ export default function Footer() {
                 <Twitter />
               </a>
               <a
-                href="https://facebook.com/web3templates"
+                href="https://facebook.com"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Facebook</span>
                 <Facebook />
               </a>
               <a
-                href="https://instagram.com/web3templates"
+                href="https://instagram.com"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Instagram</span>
@@ -109,22 +93,16 @@ export default function Footer() {
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
           <a
-            href="https://web3templates.com/"
+            href=""
             target="_blank"
             rel="noopener">
-            Web3Templates.
-          </a>{" "}
-          Illustrations from{" "}
-          <a
-            href="https://www.glazestock.com/"
-            target="_blank"
-            rel="noopener ">
-            Glazestock
+            Taplink Project.
           </a>
+        
         </div>
       </Container>
       {/* Do not remove this */}
-      <Backlink />
+      
     </div>
   );
 }
@@ -198,7 +176,6 @@ const Backlink = () => {
         />
       </svg>
 
-      <span>Web3Templates</span>
     </a>
   );
 };

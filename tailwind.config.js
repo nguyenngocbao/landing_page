@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        trueGray: colors.neutral,
+        trueGray: colors.neutral
       },
     },
     fontFamily: {
