@@ -10,48 +10,50 @@ import {
 import benefitOneImg from "../public/img/service.png";
 import benefitTwoImg from "../public/img/service1.png";
 
+
+
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "A Tap Opens a World of Convenience",
+  desc: "TapLink's NFC technology enables instant device connections, allowing a simple tap to unlock seamless, automated conveniences that streamline life.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
+      title: "Smart device connectivity",
+      desc: "TapLink's NFC technology enables instant connections between devices when tapped.",
+      icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
+      title: "Convenience",
+      desc: "With just a simple tap, users can automate tasks and processes.",
+      icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Smart living",
+      desc: "TapLink unlocks a world of instant and seamless experiences.",
+      icon: <SunIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Tap to Connect - Brings the Smart Future",
+  desc: "TapLink leverages NFC technology and simple tap interactions to streamline connectivity between devices and systems, pioneering an automated, efficient, and seamless smart future.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
+      title: "TapLink utilizes NFC technology",
+      desc: "Integrates NFC chips into everyday objects like phones, keys, cards, etc.",
+      icon: <FaceSmileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "Enables simple tap interactions",
+      desc: "Replaces complex actions like swiping, typing, inserting, etc.",
+      icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
+      title: "Pioneers an automated, smart future",
+      desc: "Allows connectivity between devices/systems to automate functions and processes.",
+      icon: <CursorArrowRaysIcon />,
     },
   ],
 };

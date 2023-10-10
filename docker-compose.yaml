@@ -1,7 +1,6 @@
 version: '3'
 
 services:
-
   nextjs:
     image: taplink-nextjs-app
     build: .

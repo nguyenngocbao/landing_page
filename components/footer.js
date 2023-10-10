@@ -31,8 +31,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-            Taplink is a blog that explores the integration of NFC technology and blockchain for real world assets.
-            Discover how this combination can revolutionize various industries.
+            TapLink's innovative NFC technology streamlines life through quick, simple tap interactions to instantly connect devices, make transactions, and access services seamlessly.
             </div>
 
           </div>
@@ -96,7 +95,7 @@ export default function Footer() {
             href=""
             target="_blank"
             rel="noopener">
-            Taplink Project.
+            Taplink Team.
           </a>
         
         </div>

@@ -28,16 +28,14 @@ const Home = () => {
       <Hero />
       <SectionTitle
         pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
+        title="Watch to see what we'll be doing.">
+        TapLink is bringing exciting new NFC capabilities to make life seamless. Watch to see what we'll be doing with this game-changing technology.
       </SectionTitle>
       <Video />
       <SectionTitle
-        pretitle="Taplink Products"
-        title="This is the Product">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle="Taplink's Benefits"
+        title="Discover the Benefits of Taplink.">
+        Dive into a Comprehensive Exploration of the Advantages Offered by Taplink.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
