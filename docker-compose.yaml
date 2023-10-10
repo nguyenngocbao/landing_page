@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  nextjs:
+    image: taplink-nextjs-app
+    build: .
+    ports:
+      - "7666:3000"
+    environment:
+      - PORT=3000
