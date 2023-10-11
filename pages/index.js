@@ -11,8 +11,12 @@ import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
+import React, { useEffect } from "react";
+import { useTheme } from "next-themes";
 
 const Home = () => {
+  const { theme, setTheme } = useTheme();
+  useEffect(() => setTheme('light'),[]);
   return (
     <>
       <Head>
