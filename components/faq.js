@@ -35,22 +35,22 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "How does TapLink's NFC technology work?",
+    answer: "TapLink uses near-field communication (NFC) that allows devices to instantly connect and communicate when tapped together or brought within a few centimeters.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "What devices and systems can I use with TapLink?",
+    answer: "TapLink is compatible with any device enabled with NFC technology, including smartphones, tablets, laptops, and NFC tags. It also integrates with access control systems, transit stations, and more.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "How far apart can two devices be for TapLink connection?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Devices need to be within about 4 centimeters or 1.5 inches to connect via NFC. The close proximity provides security.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "What are some example uses for TapLink in daily life?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "TapLink allows you to access transit, buildings, and services; share contacts or links; make purchases, and more with just a quick tap. It streamlines nearly any daily task.",
   },
 ];
 

@@ -46,13 +46,12 @@ const Home = () => {
       <SectionTitle
         pretitle="Testimonials"
         title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Real customer stories showcasing TapLink's life-enhancing NFC technology in action.
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      Got questions? We've got answers. 
+      Check out our FAQ section below for some of our most commonly asked questions about TapLink.
       </SectionTitle>
       <Faq />
       {/* <Cta /> */}
